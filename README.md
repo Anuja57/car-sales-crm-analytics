@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="10" src="https://github.com/user-attachments/assets/63af2219-21e4-42e1-8b2c-1c2125ed7b8d" />AI-Based Data Analytics for CRM Optimization: Driving Car Sales Success
+AI-Based Data Analytics for CRM Optimization: Driving Car Sales Success 
 <img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/ee76088b-4c9f-4ad7-91d0-8788afc69947" />
 <img width="1920" height="1021" alt="3" src="https://github.com/user-attachments/assets/94e685ca-1509-4c17-bf31-48f3d5473a14" />
 
@@ -48,22 +48,22 @@ AI insights (optional): Anthropic API
 In progress: FastAPI backend + React frontend (backend/, frontend/)
 
 **Project Structure**
-├── app.py                  # Streamlit entry point
-├── pipeline/
-│   ├── data_loader.py      # Loads the CSV files
-│   ├── data_cleaner.py     # Cleaning and EDA summaries
-│   ├── ml_engine.py        # K-Means, scoring and Random Forest
-│   └── ai_insights.py      # Optional AI-generated insights
-├── dashboards/
-│   ├── agent_performance.py
-│   ├── customer_connectivity.py
-│   └── lead_conversion.py
-├── utils/helpers.py        # ID-to-label mappings and helpers
-├── backend/                # FastAPI version (in progress)
-├── frontend/               # React version (in progress)
-├── screenshots/
-├── requirements.txt
-└── .env.example
+├── app.py                  # Streamlit entry point\
+├── pipeline/\
+│   ├── data_loader.py      # Loads the CSV files\
+│   ├── data_cleaner.py     # Cleaning and EDA summaries\
+│   ├── ml_engine.py        # K-Means, scoring and Random Forest\
+│   └── ai_insights.py      # Optional AI-generated insights\
+├── dashboards/\
+│   ├── agent_performance.py\
+│   ├── customer_connectivity.py\
+│   └── lead_conversion.py\
+├── utils/helpers.py        # ID-to-label mappings and helpers\
+├── backend/                # FastAPI version (in progress)\
+├── frontend/               # React version (in progress)\
+├── screenshots/\
+├── requirements.txt\
+└── .env.example\
 
 **Getting Started**
 1. Clone the repository
@@ -73,8 +73,8 @@ cd car-sales-crm-analytics
 2. Create a virtual environment and install dependencies
 bash
 python -m venv venv
-venv\Scripts\activate          # Windows
-# source venv/bin/activate     # macOS / Linux
+venv\Scripts\activate         
+source venv/bin/activate    
 pip install -r requirements.txt
 3. Run the app
 bash
@@ -92,7 +92,7 @@ Copy .env.example to .env and set your key:
 
 ANTHROPIC_API_KEY=your_key_here
 
-The app works fully without it.
+The app works fully without it.\
 
 **Data Note**
 
