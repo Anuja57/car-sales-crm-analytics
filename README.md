@@ -1,4 +1,5 @@
-AI-Based Data Analytics for CRM Optimization: Driving Car Sales Success 
+**AI-Based Data Analytics for CRM Optimization: Driving Car Sales Success**
+
 <img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/ee76088b-4c9f-4ad7-91d0-8788afc69947" />
 <img width="1920" height="1021" alt="3" src="https://github.com/user-attachments/assets/94e685ca-1509-4c17-bf31-48f3d5473a14" />
 
@@ -12,15 +13,14 @@ Car dealerships collect large volumes of CRM data (call logs, lead details, test
 
 This project is a web application that takes a dealership's CRM exports and runs an automated analytics pipeline (data loading → cleaning → EDA → machine learning). It then presents the results as interactive dashboards. Optional AI-generated written insights can be added using the Claude API.
 
-Objectives
+**Objectives**
+
 Collect, clean and preprocess CRM datasets for analytics.
 Apply ML models to derive insights on agent performance and lead conversion.
 Build a dashboard / web application to visualize customer connectivity trends.
 Help managers prioritize leads and improve agent productivity.
 
-**Features**
 
-**Screenshots**
 <img width="1920" height="1080" alt="4" src="https://github.com/user-attachments/assets/3bcff8f8-127d-4555-a624-e796005ea0da" />
 <img width="1920" height="1080" alt="6" src="https://github.com/user-attachments/assets/b6ea3665-ebdf-40f7-8807-9afb97209d8a" />
 <img width="1920" height="1080" alt="7" src="https://github.com/user-attachments/assets/33953605-4d80-4c10-a807-bff549b0362e" />
@@ -28,15 +28,16 @@ Help managers prioritize leads and improve agent productivity.
 <img width="1920" height="1080" alt="13" src="https://github.com/user-attachments/assets/fe013d5c-52ab-4778-95f7-8e5ce3c888b1" />
 
 **System Workflow**
-CRM CSV files (leads, calls, test drives)
-        │
-        ▼
-Data loading → Cleaning → EDA
-        │
-        ▼
-ML analysis (K-Means / rule-based scoring / Random Forest)
-        │
-        ▼
+
+CRM CSV files (leads, calls, test drives)\
+        │\
+        ▼\
+Data loading → Cleaning → EDA\
+        │\
+        ▼\
+ML analysis (K-Means / rule-based scoring / Random Forest)\
+        │\
+        ▼\
 Interactive Plotly dashboards in Streamlit  (+ optional AI insights)
 
 **Tech Stack**
@@ -63,7 +64,7 @@ In progress: FastAPI backend + React frontend (backend/, frontend/)
 ├── frontend/               # React version (in progress)\
 ├── screenshots/\
 ├── requirements.txt\
-└── .env.example\
+└── .env.example
 
 **Getting Started**
 1. Clone the repository
@@ -92,7 +93,7 @@ Copy .env.example to .env and set your key:
 
 ANTHROPIC_API_KEY=your_key_here
 
-The app works fully without it.\
+The app works fully without it.
 
 **Data Note**
 
