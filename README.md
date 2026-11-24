@@ -29,16 +29,19 @@ Help managers prioritize leads and improve agent productivity.
 
 **System Workflow**
 
-CRM CSV files (leads, calls, test drives)\
-        │\
-        ▼\
-Data loading → Cleaning → EDA\
-        │\
-        ▼\
-ML analysis (K-Means / rule-based scoring / Random Forest)\
-        │\
-        ▼\
+```text
+CRM CSV files (leads, calls, test drives)
+        │
+        ▼
+Data loading → Cleaning → EDA
+        │
+        ▼
+ML analysis (K-Means / rule-based scoring / Random Forest)
+        │
+        ▼
 Interactive Plotly dashboards in Streamlit  (+ optional AI insights)
+```
+
 
 **Tech Stack**
 Language: Python
@@ -49,23 +52,24 @@ AI insights (optional): Anthropic API
 In progress: FastAPI backend + React frontend (backend/, frontend/)
 
 **Project Structure**
-├── app.py                  # Streamlit entry point\
-├── pipeline/\
-│   ├── data_loader.py      # Loads the CSV files\
-│   ├── data_cleaner.py     # Cleaning and EDA summaries\
-│   ├── ml_engine.py        # K-Means, scoring and Random Forest\
-│   └── ai_insights.py      # Optional AI-generated insights\
-├── dashboards/\
-│   ├── agent_performance.py\
-│   ├── customer_connectivity.py\
-│   └── lead_conversion.py\
-├── utils/helpers.py        # ID-to-label mappings and helpers\
-├── backend/                # FastAPI version (in progress)\
-├── frontend/               # React version (in progress)\
-├── screenshots/\
-├── requirements.txt\
+```
+├── app.py                  # Streamlit entry point
+├── pipeline/
+│   ├── data_loader.py      # Loads the CSV files
+│   ├── data_cleaner.py     # Cleaning and EDA summaries
+│   ├── ml_engine.py        # K-Means, scoring and Random Forest
+│   └── ai_insights.py      # Optional AI-generated insights
+├── dashboards/
+│   ├── agent_performance.py
+│   ├── customer_connectivity.py
+│   └── lead_conversion.py
+├── utils/helpers.py        # ID-to-label mappings and helpers
+├── backend/                # FastAPI version (in progress)
+├── frontend/               # React version (in progress)
+├── screenshots/
+├── requirements.txt
 └── .env.example
-
+```
 **Getting Started**
 1. Clone the repository
 bash
