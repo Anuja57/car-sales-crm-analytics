@@ -1,11 +1,12 @@
-AI-Based Data Analytics for CRM Optimization: Driving Car Sales Success
+<img width="1920" height="1080" alt="10" src="https://github.com/user-attachments/assets/63af2219-21e4-42e1-8b2c-1c2125ed7b8d" />AI-Based Data Analytics for CRM Optimization: Driving Car Sales Success
 <img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/ee76088b-4c9f-4ad7-91d0-8788afc69947" />
-<img width="1920" height="1080" alt="3" src="https://github.com/user-attachments/assets/6fc502b1-dfc7-4a94-9482-e6350ac38452" />
-Sponsored by: Group Landmark Ltd., Mumbai
+<img width="1920" height="1021" alt="3" src="https://github.com/user-attachments/assets/94e685ca-1509-4c17-bf31-48f3d5473a14" />
+
+**Sponsored by: Group Landmark Ltd., Mumbai**
 Program: B.E. Information Technology, Semester VIII (Major Project), AY 2025–26
 Institute: Finolex Academy of Management and Technology, Ratnagiri (Affiliated to University of Mumbai)
 
-Overview
+**Overview**
 
 Car dealerships collect large volumes of CRM data (call logs, lead details, test-drive records), but most of it stays unused. Tracking is often manual, which is slow and leads to lost sales opportunities.
 
@@ -16,22 +17,17 @@ Collect, clean and preprocess CRM datasets for analytics.
 Apply ML models to derive insights on agent performance and lead conversion.
 Build a dashboard / web application to visualize customer connectivity trends.
 Help managers prioritize leads and improve agent productivity.
-Features
-Module	What it does	Method
-Agent Performance	Ranks agents on calls, hot-lead ratio, callbacks and test drives, and groups them into High / Medium / Low tiers	K-Means (k=3) + weighted composite score
-Customer Connectivity	Scores customer engagement and shows call trends, location and car-model interest	Rule-based engagement score (calls, callback rate, lead type)
-Lead Conversion	Predicts each lead's conversion probability and lists high-potential unconverted leads	Random Forest (150 trees, balanced class weights)
-EDA Summary	Data quality overview: rows, columns, duplicates and missing values per file	Pandas
-AI Insights (optional)	Plain-English summary of each dashboard	Claude API
-Screenshots
 
-Replace the file names below with your own screenshot names in the screenshots/ folder.
+**Features**
 
-Agent Performance	Customer Connectivity
-Agent Performance	Customer Connectivity
-Lead Conversion	ML Feature Importance
-Lead Conversion	Feature Importance
-System Workflow
+**Screenshots**
+<img width="1920" height="1080" alt="4" src="https://github.com/user-attachments/assets/3bcff8f8-127d-4555-a624-e796005ea0da" />
+<img width="1920" height="1080" alt="6" src="https://github.com/user-attachments/assets/b6ea3665-ebdf-40f7-8807-9afb97209d8a" />
+<img width="1920" height="1080" alt="7" src="https://github.com/user-attachments/assets/33953605-4d80-4c10-a807-bff549b0362e" />
+<img width="1920" height="1080" alt="10" src="https://github.com/user-attachments/assets/467a365e-efe0-4fa0-b9c8-01d8025d94c0" />
+<img width="1920" height="1080" alt="13" src="https://github.com/user-attachments/assets/fe013d5c-52ab-4778-95f7-8e5ce3c888b1" />
+
+**System Workflow**
 CRM CSV files (leads, calls, test drives)
         │
         ▼
@@ -42,14 +38,16 @@ ML analysis (K-Means / rule-based scoring / Random Forest)
         │
         ▼
 Interactive Plotly dashboards in Streamlit  (+ optional AI insights)
-Tech Stack
+
+**Tech Stack**
 Language: Python
 Data & ML: Pandas, NumPy, scikit-learn
 Visualization: Plotly
 Web app: Streamlit
 AI insights (optional): Anthropic API
 In progress: FastAPI backend + React frontend (backend/, frontend/)
-Project Structure
+
+**Project Structure**
 ├── app.py                  # Streamlit entry point
 ├── pipeline/
 │   ├── data_loader.py      # Loads the CSV files
@@ -66,7 +64,8 @@ Project Structure
 ├── screenshots/
 ├── requirements.txt
 └── .env.example
-Getting Started
+
+**Getting Started**
 1. Clone the repository
 bash
 git clone https://github.com/Anuja57/car-sales-crm-analytics.git
@@ -95,31 +94,33 @@ ANTHROPIC_API_KEY=your_key_here
 
 The app works fully without it.
 
-Data Note
+**Data Note**
 
 The dataset comes from the sponsoring company and is used for academic purposes only. Raw company data is not included in this repository. To try the app, use your own CSV exports with the same column structure.
 
-Sample Results (on the project dataset)
+**Sample Results (on the project dataset)**
 1,000 leads analysed, with an 80.4% conversion rate and 12 high-potential unconverted leads identified.
 592 unique customers profiled, with an average callback rate of 85.8%.
 Agents ranked into High / Medium / Low tiers using clustering and a weighted score.
 Random Forest feature importance showed lead source and lead age as the strongest drivers of conversion.
-Future Scope
+
+**Future Scope**
 Complete the React + FastAPI version for deployment.
 Extend to other industries such as BPO, banking and retail.
 Real-time dashboards and alerts for managers.
 Validate the models on larger datasets.
-SDG Alignment
+
+**SDG Alignment**
 SDG 9: Industry, Innovation and Infrastructure
 SDG 8: Decent Work and Economic Growth
-Team (Group 03)
-Name	Registration No.
-Yukta Bhujbal	T-22-0525
-Anuja Gadekar	T-22-0516
-Vaishnavi Pokale	T-22-0022
 
-Guides: Prof. Onkar Dike (Assistant Professor) and Mr. Bhushan Kharare (Senior Data Analyst)
+**Team** 
+Yukta Bhujbal	
+Anuja Gadekar	
+Vaishnavi Pokale	
 
-Acknowledgements
+**Guides:** Prof. Onkar Dike (Assistant Professor) and Mr. Bhushan Kharare (Senior Data Analyst)
+
+**Acknowledgements**
 
 Group Landmark Ltd., Mumbai, for sponsoring the project, and Finolex Academy of Management and Technology, Ratnagiri.
