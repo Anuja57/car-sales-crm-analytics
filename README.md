@@ -4,6 +4,7 @@
 <img width="1920" height="1021" alt="3" src="https://github.com/user-attachments/assets/94e685ca-1509-4c17-bf31-48f3d5473a14" />
 
 **Sponsored by: Group Landmark Ltd., Mumbai**
+
 Program: B.E. Information Technology, Semester VIII (Major Project), AY 2025–26
 Institute: Finolex Academy of Management and Technology, Ratnagiri (Affiliated to University of Mumbai)
 
@@ -72,19 +73,24 @@ In progress: FastAPI backend + React frontend (backend/, frontend/)
 ```
 **Getting Started**
 1. Clone the repository
+```
 bash
 git clone https://github.com/Anuja57/car-sales-crm-analytics.git
-cd car-sales-crm-analytics
+cd car-sales-crm-analytics 
+```
 2. Create a virtual environment and install dependencies
+```
 bash
 python -m venv venv
 venv\Scripts\activate         
 source venv/bin/activate    
 pip install -r requirements.txt
+```
 3. Run the app
+```
 bash
 streamlit run app.py
-
+```
 The app opens at http://localhost:8501.
 
 4. Use the app
@@ -94,9 +100,9 @@ Explore the tabs: Agent Performance, Customer Connectivity, Lead Conversion, EDA
 Optional: AI insights
 
 Copy .env.example to .env and set your key:
-
+```
 ANTHROPIC_API_KEY=your_key_here
-
+```
 The app works fully without it.
 
 **Data Note**
@@ -104,12 +110,14 @@ The app works fully without it.
 The dataset comes from the sponsoring company and is used for academic purposes only. Raw company data is not included in this repository. To try the app, use your own CSV exports with the same column structure.
 
 **Sample Results (on the project dataset)**
+
 1,000 leads analysed, with an 80.4% conversion rate and 12 high-potential unconverted leads identified.
 592 unique customers profiled, with an average callback rate of 85.8%.
 Agents ranked into High / Medium / Low tiers using clustering and a weighted score.
 Random Forest feature importance showed lead source and lead age as the strongest drivers of conversion.
 
 **Future Scope**
+
 Complete the React + FastAPI version for deployment.
 Extend to other industries such as BPO, banking and retail.
 Real-time dashboards and alerts for managers.
